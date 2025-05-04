@@ -1,39 +1,47 @@
-# Qubit Internet
 
-Qubit Internet is a telecom MVP offering affordable mobile data to Nigerians. Built with Lean Startup principles, this project tests pricing, customer behavior, and viral growth assumptions in real-time.
+# Qubit Internet MVP
 
-## Live Website
-[Click here to access the live site](YOUR-LIVE-LINK-HERE)
+This is the **Minimum Viable Product (MVP)** for **Qubit Internet**, a lean telecom experiment aimed at testing affordable mobile data reselling in Nigeria.
+
+## Purpose
+
+- Test if Nigerians are willing to switch to more affordable data services.
+- Validate if simplified online ordering (via mobile) can increase access to data.
+- Collect early customer feedback to improve future versions (MVP 2.0).
 
 ## Features
-- 1GB for ₦100
-- Viral referral offer
-- Google Form to collect user interest and feedback
-- Testimonials section
-- Comparison with competitor pricing
-- Clean, responsive design
 
-## Competitor Pricing (as of 2025)
-| Provider   | 1GB Price (₦) | Validity |
-|------------|---------------|----------|
-| MTN        | 800           | 7 days   |
-| Airtel     | 750           | 7 days   |
-| Glo        | 600           | 7 days   |
-| 9mobile    | 700           | 7 days   |
+- Simple landing page
+- Clear competitive pricing table (based on real 2025 data)
+- Google Form to collect feedback and interest
+- Testimonies section (no fake images)
+- Works on mobile and low-bandwidth devices
 
-## Built With
-- HTML5  
-- CSS3  
-- Google Forms (for feedback)
+## Competitor Prices (2025)
 
-## How to Run Locally
-1. Clone this repository
-2. Open `index.html` in your browser
-3. To edit styles, open and modify `style.css`
+| Provider       | 1GB Price | Validity |
+|----------------|-----------|----------|
+| MTN            | ₦800      | 7 Days   |
+| Airtel         | ₦750      | 7 Days   |
+| Glo            | ₦600      | 7 Days   |
+| 9mobile        | ₦700      | 7 Days   |
 
-## License
-This project is under the MIT License.
+## How To Use
 
-## Contact
-Email: uzoagulu07@gmail.com  
-Phone: 07039625148
+Visit the [Live Website](https://livinusoo7-7b.github.io/Qubit-telecom-/)  
+Fill out the [Google Form](https://docs.google.com/forms/d/1z4JDXr50G7-WSr3oLXI5q2pcKuKVzbMU4I8JV0DDp9g/viewform)  
+Track progress through GitHub commits and feedback responses.
+
+---
+
+### MVP Metrics Aligned
+
+- **Assumption**: People want cheaper internet.
+- **Success Tracker**: Number of Google Form submissions.
+- **Actionable Metrics**: Real user interest and pricing sensitivity.
+- **Growth Engine**: Word-of-mouth + mobile-first site.
+- **Pivot Trigger**: If less than 10 users respond or request different pricing.
+
+---
+
+Built by Livinus — founder of Qubit.

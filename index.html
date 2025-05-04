@@ -5,43 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qubit Internet</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #0a0a23; color: white; padding: 20px; text-align: center; }
+        h1 { font-size: 36px; }
+        .pricing, .testimony, #about, footer { padding: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        footer { background: #0a0a23; color: white; text-align: center; padding: 10px; }
+        a.button { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1><strong>Qubit Internet</strong></h1>
-        <p>Affordable, Fast, and Reliable Data Service</p>
-    </header>
 
-    <section class="pricing">
-        <h2>Our Competitor Pricing (1GB - 7 Days)</h2>
-        <table>
-            <tr><th>Provider</th><th>Price (₦)</th><th>Validity</th></tr>
-            <tr><td>MTN</td><td>₦800</td><td>7 days</td></tr>
-            <tr><td>Airtel</td><td>₦750</td><td>7 days</td></tr>
-            <tr><td>Glo</td><td>₦600</td><td>7 days</td></tr>
-            <tr><td>9mobile</td><td>₦700</td><td>7 days</td></tr>
-        </table>
-    </section>
+<header>
+    <h1><strong>Qubit Internet</strong></h1>
+    <p>Affordable, Fast, and Reliable Mobile Data</p>
+</header>
 
-    <section class="testimonials">
-        <h2>What Our Users Say</h2>
-        <blockquote>"Qubit Internet is cheaper and faster than what I used before!" - Amina, Lagos</blockquote>
-        <blockquote>"It just works. And the referral bonus is sweet!" - Emeka, Abuja</blockquote>
-    </section>
+<section class="pricing">
+    <h2>Our Prices vs Competitors</h2>
+    <table>
+        <tr>
+            <th>Provider</th>
+            <th>1GB Price</th>
+            <th>Validity</th>
+        </tr>
+        <tr><td>MTN</td><td>₦800</td><td>7 Days</td></tr>
+        <tr><td>Airtel</td><td>₦750</td><td>7 Days</td></tr>
+        <tr><td>Glo</td><td>₦600</td><td>7 Days</td></tr>
+        <tr><td>9mobile</td><td>₦700</td><td>7 Days</td></tr>
+    </table>
+</section>
 
-    <section class="referral">
-        <h2>Refer a Friend</h2>
-        <p>Get 100MB free when your friend buys their first data bundle!</p>
-    </section>
+<section id="about">
+    <h2>About Qubit Internet</h2>
+    <p>Qubit Internet is a new telecom experiment focused on helping Nigerians access cheaper, faster, and more reliable mobile data.</p>
+    <ul>
+        <li>This MVP tests our core assumptions about pricing and simplicity.</li>
+        <li>We compare real prices from MTN, Glo, Airtel, and 9mobile.</li>
+        <li>Feedback is collected through a live Google Form.</li>
+        <li>No fake features — this MVP is designed for learning and growth.</li>
+    </ul>
+</section>
 
-    <section class="feedback">
-        <h2>Give Us Feedback</h2>
-        <p>Help us improve. <a href="https://docs.google.com/forms/d/1z4JDXr50G7-WSr3oLXI5q2pcKuKVzbMU4I8JV0DDp9g/viewform" target="_blank">Click here to fill the form</a>.</p>
-    </section>
+<section class="testimony">
+    <h2>Testimony</h2>
+    <blockquote>
+        "Qubit Internet has really helped me save money on data. It's reliable and affordable!"
+        <br>— Test User
+    </blockquote>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Qubit Internet. All rights reserved.</p>
-    </footer>
+<section>
+    <h2>Feedback</h2>
+    <p>We want to hear from you! Fill the form below:</p>
+    <a class="button" href="https://docs.google.com/forms/d/1z4JDXr50G7-WSr3oLXI5q2pcKuKVzbMU4I8JV0DDp9g/viewform" target="_blank">Give Feedback</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Qubit Internet. Built by Livinus.</p>
+</footer>
+
 </body>
 </html>
